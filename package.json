@@ -2,8 +2,11 @@
   "name": "format-check-demo",
   "private": true,
   "scripts": {
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "lint": "eslint .",
+    "lint:fix": "npm run lint --fix",
+    "prettier": "prettier --check .",
+    "prettier:fix": "npm run prettier --write .",
+    "format": "npm run prettier:fix && npm run lint:fix"
   },
   "devDependencies": {
     "prettier": "^3.3.3"

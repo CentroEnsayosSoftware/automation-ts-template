@@ -1,4 +1,4 @@
-lockfileVersion: "9.0"
+lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
@@ -17,7 +17,7 @@ packages:
       {
         integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==,
       }
-    engines: { node: ">=14" }
+    engines: { node: '>=14' }
     hasBin: true
 
 snapshots:

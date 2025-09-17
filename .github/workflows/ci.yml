@@ -8,8 +8,10 @@ on:
     branches: [ master ] # Ejecutar en PR a la rama main
 
 jobs:
-  chequeo-prettier:
+  auto-format:
+    name: Formatear y lint
     runs-on: ubuntu-latest
+
     steps:
       - name: Descarga de repositorio
         uses: actions/checkout@v4 
@@ -21,6 +23,5 @@ jobs:
 
       - name: Instalacion de dependencias
         run: npm i
-
-      - name: Ejecutar chequeo con Prettier
-        run: npm run format:check 
+      - name: Formatear Typescript
+        run: npm run format
