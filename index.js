@@ -5,3 +5,4 @@ function sayHello(name) {
 }
 
 sayHello('Leonardo');
+sayHello('Leonardo');

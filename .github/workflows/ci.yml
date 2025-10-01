@@ -3,9 +3,9 @@ name: Prettier
 
 on:
   push:
-    branches: [ master ] # Ejecutar en push a la rama main
+    branches: [ master ] 
   pull_request:
-    branches: [ master ] # Ejecutar en PR a la rama main
+    branches: [ master ] 
 
 jobs:
   auto-format:
