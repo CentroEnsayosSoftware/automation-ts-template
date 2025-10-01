@@ -1,8 +1,7 @@
 /* global console */
 
-function sayHello(name) {
-  console.log('Hola: ' + name);
+function sayHello(name, lastname) {
+  console.log('Hola: ' + name + lastname);
 }
 
-sayHello('Leonardo');
-sayHello('Leonardo');
+sayHello('Leonardo', 'Perez');
