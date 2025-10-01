@@ -4,4 +4,4 @@ function sayHello(name, lastname) {
   console.log('Hola: ' + name + lastname);
 }
 
-sayHello('Leonardo', 'Perez');
+sayHello('Leonardo', 'Pérez');
